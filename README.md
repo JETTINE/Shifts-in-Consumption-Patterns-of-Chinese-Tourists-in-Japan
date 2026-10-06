@@ -1,42 +1,32 @@
 # Japan Inbound Tourism Data Analysis
 
-A Python-based data analysis and visualization project using public tourism statistics from the Japan National Tourism Organization (JNTO) and the Japan Tourism Agency.
+A small Python data-analysis project based on tourism statistics collected for my master's research.
 
-This project analyzes changes in the travel destinations and consumption patterns of Chinese visitors to Japan, with a particular focus on regional concentration, seasonality, and consumption structure.
+## What this project does
 
-## Project Objectives
-
-- Collect and organize official tourism statistics
-- Clean and preprocess multi-year tourism datasets
-- Analyze regional concentration using the Herfindahl-Hirschman Index (HHI)
-- Compare tourism consumption patterns across different periods
-- Visualize trends using Python
-- Build a reproducible data analysis workflow
+- Reads tourism statistics from Excel
+- Cleans and organizes data with Pandas
+- Analyzes annual and quarterly HHI trends
+- Visualizes geographic concentration over time
+- Visualizes total tourism spending
+- Compares pre-pandemic and post-pandemic results
 
 ## Tech Stack
 
 - Python
 - Pandas
 - Matplotlib
-- SQL
-- SQLite
 - Jupyter Notebook
-- Git / GitHub
+
+## Files
+
+- `tourism_analysis_realdata.ipynb` — analysis notebook
+- `データ統計.xlsx` — source data workbook
 
 ## Data Sources
 
-- Japan National Tourism Organization (JNTO)
-- Japan Tourism Agency
+The workbook is compiled from public tourism statistics, including data from JNTO and the Japan Tourism Agency.
 
-## Project Structure
+## Note
 
-```text
-japan-inbound-tourism-analysis/
-├── README.md
-├── requirements.txt
-├── data/
-├── notebooks/
-├── src/
-├── sql/
-├── output/
-└── tests/
+This repository is a simplified reproducible version of analysis used in my master's research on changes in the consumption behavior of Chinese visitors to Japan.
